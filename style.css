@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.font1{
+    font-family: "Source Sans 3", sans-serif;
+}
+
+.font2{
+    font-family: "Cormorant Garamond", serif;
+}
+
+#img1, #img_bot {
+    filter: brightness(70%);
+    background-blend-mode: normal
+}
