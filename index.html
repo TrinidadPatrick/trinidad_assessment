@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
     <title>Marci Metzeger Homes - Real Estate</title>
@@ -31,7 +31,7 @@
                     <a href="#" class="text-[#6A564F] text-sm md:text-base lg:text-lg whitespace-nowrap">About Us</a>
                 </div>
                 <!-- Image -->
-                <div class=" w-full flex justify-center">
+                <div class=" w-full flex justify-center lg:py-5">
                     <img class="w-[15rem] sm:w-[15rem] md:w-[20rem] lg:w-[20rem]" src="./images/title_image.webp"
                         alt="Marci Metzeger Homes">
                 </div>
@@ -131,83 +131,130 @@
         </section>
 
         <!-- Section 4 -->
-         <section class="w-full h-[65svh] bg-black relative flex flex-col justify-center items-center gap-10">
+         <section class="w-full  lg:h-[65svh] relative flex flex-col justify-center items-center gap-0 md:gap-10 bg-red-100">
             <!-- Image -->
-             <div id="img_bot" class="w-full h-[70%] bg-[url('https://img1.wsimg.com/isteam/stock/143/:/rs=w:1535,m')] absolute inset-0 bg-bottom bg-no-repeat object-cover bg-center bg-cover flex flex-col">
+            <div class="w-full h-[150px]  flex flex-col justify-center">
+                <div id="img_bot" class="bg-[url('https://img1.wsimg.com/isteam/stock/143/:/rs=w:1535,m')] bg-bottom bg-no-repeat bg-center bg-cover w-full h-full absolute inset-0"></div>
+                <h1 class="font2 text-2xl md:hidden lg:text-4xl text-white font-medium z-10 relative text-center">FIND YOUR DREAM HOME</h1>
             </div>
-            <h1 class="font2 text-4xl text-white font-medium z-10 relative text-center">FIND YOUR DREAM HOME</h1>
-            <div class="w-[60%] h-[300px] bg-white z-20 rounded-sm shadow-[0_0_30px_rgba(255,255,255,0.4)] flex flex-col gap-5 justify-start items-center py-5 px-10">
-                <h1 class="font2 text-3xl text-[#AB8585] text-start  w-full my-5">SEARCH LISTINGS</h1>
-                <!-- Picker -->
-                <div class="w-full flex gap-5">
-                    <div class="flex flex-col w-full relative ">
-                        <label>Location</label>
-                        <select class="border h-[40px] rounded appearance-none"></select>
-                        <svg class="top-9 right-2 absolute" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 48 48"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M36 18L24 30L12 18"/></svg>
-                    </div>
-                    <div class="flex flex-col w-full relative ">
-                        <label>Type</label>
-                        <select class="border h-[40px] rounded appearance-none"></select>
-                        <svg class="top-9 right-2 absolute" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 48 48"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M36 18L24 30L12 18"/></svg>
-                    </div>
-                    <div class="flex flex-col w-full relative ">
-                        <label>Sort By</label>
-                        <select class="border h-[40px] rounded appearance-none"></select>
-                        <svg class="top-9 right-2 absolute" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 48 48"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M36 18L24 30L12 18"/></svg>
-                    </div>
-                </div>
-                <div class="w-full flex gap-5">
-                    <div class="w-full flex gap-3">
-                    <!-- Bedrooms    -->
-                    <div class="flex flex-col w-full relative ">
-                        <label>Bedrooms</label>
-                        <select class="border h-[40px] rounded appearance-none px-2 cursor-pointer">
-                            <option value="#">Any Number</option>
-                            <option value="#">Studio</option>
-                            <option value="#">1+</option>
-                            <option value="#">2+</option>
-                            <option value="#">3+</option>
-                            <option value="#">4+</option>
-                            <option value="#">5+</option>
-                            <option value="#">6+</option>
-                        </select>
-                        <svg class="top-9 right-2 absolute" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 48 48"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M36 18L24 30L12 18"/></svg>
-                    </div>
-                    <!-- Baths    -->
-                    <div class="flex flex-col w-full relative ">
-                        <label>Baths</label>
-                        <select class="border h-[40px] rounded appearance-none px-2 cursor-pointer">
-                            <option value="#">Any Number</option>
-                            <option value="#">Studio</option>
-                            <option value="#">1+</option>
-                            <option value="#">2+</option>
-                            <option value="#">3+</option>
-                            <option value="#">4+</option>
-                            <option value="#">5+</option>
-                            <option value="#">6+</option>
-                        </select>
-                        <svg class="top-9 right-2 absolute" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 48 48"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M36 18L24 30L12 18"/></svg>
-                    </div>
-                    </div>
+             <div id="img_bot" class="w-full h-[90%] lg:h-[70%] md:bg-[url('https://img1.wsimg.com/isteam/stock/143/:/rs=w:1535,m')] absolute inset-0 bg-bottom bg-no-repeat object-cover bg-center bg-cover flex flex-col">
+            </div>
+            <h1 class="font2 text-2xl hidden md:block lg:text-4xl text-white font-medium mt-8 lg:mt-0 z-10 relative text-center">FIND YOUR DREAM HOME</h1>
+            <!-- Main -->
+            <div class="bg-white z-20 w-full md:w-[95%] lg:w-[1000px] xl:w-[1200px] p-5 lg:p-10">
+                <h1 class="font2 text-2xl lg:text-3xl text-[#AB8585] text-start w-full mb-4 lg:mb-8">SEARCH LISTINGS</h1>
+                <div class="w-full bg-white z-20 rounded-sm shadow-[0_0_30px_rgba(255,255,255,0.4)] grid grid-cols-1 lg:grid-cols-3 gap-3 lg:gap-10 justify-start items-center ">
+                    <!-- Picker -->
+                        <div class="flex flex-col w-full relative ">
+                            <label class="text-gray-500 font-normal mb-1 text-[14px] lg:text-sm">Location</label>
+                            <select class="border outline-none h-[40px] rounded appearance-none cursor-pointer hover:border-[#AB8585]"></select>
+                            <svg class="top-9 right-2 absolute" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 48 48"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M36 18L24 30L12 18"/></svg>
+                        </div>
+                        <div class="flex flex-col w-full relative ">
+                            <label class="text-gray-500 font-normal mb-1 text-[14px] lg:text-sm">Type</label>
+                            <select class="border outline-none h-[40px] rounded appearance-none cursor-pointer hover:border-[#AB8585]"></select>
+                            <svg class="top-9 right-2 absolute" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 48 48"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M36 18L24 30L12 18"/></svg>
+                        </div>
+                        <div class="flex flex-col w-full relative ">
+                            <label class="text-gray-500 font-normal mb-1 text-[14px] lg:text-sm">Sort By</label>
+                            <select class="border outline-none h-[40px] rounded appearance-none cursor-pointer hover:border-[#AB8585]"></select>
+                            <svg class="top-9 right-2 absolute" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 48 48"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M36 18L24 30L12 18"/></svg>
+                        </div>
 
-                    <div>
-                    <!-- Min Price    -->
-                    <div class="flex flex-col w-full relative ">
-                        <label>Min Price</label>
-                        <input type="number" class="border-b h-[40px] rounded appearance-none px-2 cursor-pointer ">
+                        <div class="w-full flex gap-3">
+                        <!-- Bedrooms    -->
+                        <div class="flex flex-col w-full relative  ">
+                            <label class="text-gray-500 font-normal mb-1 text-[14px] lg:text-sm">Bedrooms</label>
+                            <select class="border outline-none h-[40px] rounded appearance-none px-2 cursor-pointer text-gray-600 hover:border-[#AB8585]">
+                                <option value="#">Any Number</option>
+                                <option value="#">Studio</option>
+                                <option value="#">1+</option>
+                                <option value="#">2+</option>
+                                <option value="#">3+</option>
+                                <option value="#">4+</option>
+                                <option value="#">5+</option>
+                                <option value="#">6+</option>
+                            </select>
+                            <svg class="top-9 right-2 absolute" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 48 48"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M36 18L24 30L12 18"/></svg>
+                        </div>
+                        <!-- Baths    -->
+                        <div class="flex flex-col w-full relative ">
+                            <label class="text-gray-500 font-normal mb-1 text-[14px] lg:text-sm ">Baths</label>
+                            <select class="border outline-none h-[40px] rounded appearance-none px-2 cursor-pointer text-gray-600 hover:border-[#AB8585]">
+                                <option value="#">Any Number</option>
+                                <option value="#">Studio</option>
+                                <option value="#">1+</option>
+                                <option value="#">2+</option>
+                                <option value="#">3+</option>
+                                <option value="#">4+</option>
+                                <option value="#">5+</option>
+                                <option value="#">6+</option>
+                            </select>
+                            <svg class="top-9 right-2 absolute" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 48 48"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M36 18L24 30L12 18"/></svg>
+                        </div>
+                        </div>
+    
+                        <div class=" flex gap-3 w-full justify-center ">
+                        <!-- Min Price    -->
+                        <div class="flex-1 flex-col relative w-full ">
+                            <label class="text-gray-500 font-normal mb-1 text-[14px] lg:text-sm">Min Price</label>
+                            <div class=" w-full">
+                                <input type="text" class="border-b outline-none h-[40px] rounded appearance-none px-2  w-full" placeholder="">
+                            </div>
+                        </div>
+                        <!-- Max Price    -->
+                        <div class="flex-1 flex-col w-full relative ">
+                            <label class="text-gray-500 font-normal mb-1 text-[14px] lg:text-sm">Max Price</label>
+                            <div class=" w-full">
+                                <input type="text" class="border-b outline-none h-[40px] rounded appearance-none px-2  w-full" placeholder="">
+                            </div>
+                        </div>
+                        </div>
+                        <!-- Button  -->
+                         <div class="flex flex-col w-full relative  justify-end h-full ">
+                            <button class="bg-[#AB8585] hover:bg-[#AB8585]/80 text-white rounded-full px-5 py-2 font1 w-full">Search Now</button>
+                        </div>
                     </div>
-                    <!-- Max Price    -->
-                    <div class="flex flex-col w-full relative ">
-                        <label>Max Price</label>
-                        <input type="number" class="border-b h-[40px] rounded appearance-none px-2 cursor-pointer ">
-                    </div>
+            </div>
+         </section>
+
+         <!-- section 5 -->
+        <section class="w-full h-[30svh] bg-white flex flex-col justify-center items-center">
+            <div class="w-full flex justify-evenly gap-10">
+                <div class="w-[200px] flex justify-center items-center h-[200px]">
+                    <img width="100" src="https://img1.wsimg.com/isteam/ip/067a4d42-19e8-46d9-9bed-578bf62dd44e/Equal%20Housing%20Logo.png/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:199,h:200,cg:true" alt="">
                 </div>
-                    <!-- Button  -->
-                     <div class="flex flex-col w-full relative  justify-center ">
-                        <button class="bg-[#AB8585] text-white rounded-full px-5 py-2 font1 w-full">Search Now</button>
-                    </div>
+                <div class="w-[200px] flex justify-center items-center h-[200px]">
+                    <img width="100" src="https://img1.wsimg.com/isteam/ip/067a4d42-19e8-46d9-9bed-578bf62dd44e/BIG%20CIRCLE%202.png/:/rs=w:200,h:200,cg:true,m/cr=w:200,h:200" alt="">
+                </div>
+                <div class="w-[200px] flex justify-center items-center h-[200px]">
+                    <img width="100" src="https://img1.wsimg.com/isteam/ip/067a4d42-19e8-46d9-9bed-578bf62dd44e/Realtor%20Pin.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:223,h:200,cg:true" alt="">
+                </div>
+                <div class="w-[200px] flex justify-center items-center h-[200px]">
+                    <img width="100" src="https://img1.wsimg.com/isteam/ip/067a4d42-19e8-46d9-9bed-578bf62dd44e/Chamber.jpg/:/rs=w:200,h:200,cg:true,m/cr=w:200,h:200" alt="">
                 </div>
             </div>
+        </section>
+
+        <!-- section 6 -->
+         <section class="w-full h-[100svh] bg-black flex flex-col justify-center items-center">
+            <!-- Main  Carousel -->
+            <div id="carousel" class="w-[60%] aspect-video overflow-x-scroll flex gap-2 snap-x snap-mandatory scroll-smooth select-none cursor-grab">
+                <!-- Cloned (end) -->
+                <div class="aspect-[3/2] h-full bg-red-300 snap-center"></div>
+                <div class="aspect-[3/2] h-full bg-red-300 snap-center"></div>
+              
+                <!-- Main set -->
+                <div class="aspect-[3/2] h-full bg-red-100 snap-center"></div>
+                <div class="aspect-[3/2] h-full bg-red-100 snap-center"></div>
+                <div class="aspect-[3/2] h-full bg-red-100 snap-center"></div>
+              
+                <!-- Cloned (center) -->
+                <div class="aspect-[3/2] h-full bg-red-300 snap-center"></div>
+                <div class="aspect-[3/2] h-full bg-red-300 snap-center"></div>
+              </div>
+              
+              
          </section>
 
     </main>
