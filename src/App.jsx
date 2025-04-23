@@ -474,13 +474,15 @@ function App() {
             autoPlay
             infiniteLoop
             centerMode
-            interval={1000}
+            interval={3000}
             showStatus={false}
+            swipeable
+            emulateTouch
             onChange={(index) => seCurrIndex(index)}
             >
             {images.map((image, index) => (
-                <div key={index} className='h-[500px] px-0.5 bg-black py-1'>
-                    <img src={image} alt={image.author} className={`${currIndex == index ? '' : 'brightness-50'}`} />
+                <div draggable={false} key={index} className='h-[500px] px-0.5 bg-black py-1 cursor-pointer select-none'>
+                    <img draggable={false} src={image} alt={image.author} className={`${currIndex == index ? '' : 'brightness-50'} select-none`} />
                 </div>
             ))}
             </Carousel>
