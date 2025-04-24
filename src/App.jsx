@@ -4,15 +4,21 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import img6 from '../images/img6.webp'
-import img7 from '../images/img7.webp'
-import img8 from '../images/img8.webp'
-import img10 from '../images/img10.webp'
-import img11 from '../images/img11.webp'
-import img12 from '../images/img12.webp'
-import img13 from '../images/img13.webp'
-import img14 from '../images/img14.webp'
-import img15 from '../images/img15.webp'
+import img2 from './images/img2.webp'
+import img3 from './images/img3.webp'
+import img4 from './images/img4.webp'
+import img5 from './images/img5.webp'
+import img6 from './images/img6.webp'
+import img7 from './images/img7.webp'
+import img8 from './images/img8.webp'
+import img10 from './images/img10.webp'
+import img11 from './images/img11.webp'
+import img12 from './images/img12.webp'
+import img13 from './images/img13.webp'
+import img14 from './images/img14.webp'
+import img15 from './images/img15.webp'
+import title_img from './images/title_image.webp'
+
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
@@ -115,7 +121,7 @@ function App() {
             <div className="flex-1 flex justify-center sm:justify-start lg:py-3">
               <img 
                 className="w-[15rem] sm:w-[12rem] md:w-[15rem] z-50 mx-10 md:mx-16" 
-                src="./images/title_image.webp" 
+                src={title_img}
                 alt="Marci Metzeger Homes" 
               />
             </div>
@@ -176,7 +182,7 @@ function App() {
           <h2 className="font2 text-4xl text-white font-medium z-10 relative text-center">MARCI METZGER</h2>
           <div className="w-full flex justify-center">
             <img 
-              src="./images/img2.webp" 
+              src={img2}
               alt="Marci Metzger" 
               className="aspect-square w-[20rem] lg:w-[23rem] rounded-[50%] border-4 border-[#444]" 
             />
@@ -203,7 +209,7 @@ function App() {
           
           {/* Image */}
           <div className="overflow-hidden flex rounded-xl shadow-md group">
-            <img src="./images/img3.webp" alt="Marci Metzger" className="w-full object-cover transition-transform duration-500 group-hover:scale-105" />
+            <img src={img3} alt="Marci Metzger" className="w-full object-cover transition-transform duration-500 group-hover:scale-105" />
           </div>
 
           {/* Text Block */}
@@ -238,7 +244,7 @@ function App() {
 
           {/* Image */}
           <div className="overflow-hidden rounded-xl shadow-md group">
-            <img src="./images/img4.webp" alt="Marci Metzger" className="w-full object-cover transition-transform duration-500 group-hover:scale-105" />
+            <img src={img4} alt="Marci Metzger" className="w-full object-cover transition-transform duration-500 group-hover:scale-105" />
           </div>
 
           {/* Mobile Only Text Block */}
@@ -258,7 +264,7 @@ function App() {
 
           {/* Image */}
           <div className="overflow-hidden rounded-xl shadow-md group">
-            <img src="./images/img5.webp" alt="Marci Metzger" className="w-full object-cover transition-transform duration-500 group-hover:scale-105" />
+            <img src={img5} alt="Marci Metzger" className="w-full object-cover transition-transform duration-500 group-hover:scale-105" />
           </div>
 
           {/* Final Text Block */}
