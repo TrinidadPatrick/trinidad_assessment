@@ -9,8 +9,18 @@
 }
 
 #img1, #img_bot {
-    filter: brightness(70%);
+    filter: brightness(60%);
     background-blend-mode: normal
+}
+
+.thumbs{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.thumb{
+    border: 0
 }
 
 
